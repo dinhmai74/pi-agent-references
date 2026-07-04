@@ -1,0 +1,16 @@
+{
+  "name": "pi-agent-references",
+  "version": "0.1.0",
+  "description": "Pi extension: @name repo references, aliases, GitHub cache, context injection",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "files": ["index.ts", "reference-autocomplete.ts", "README.md", "references.example.json"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}

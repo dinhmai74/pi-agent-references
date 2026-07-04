@@ -1,0 +1,13 @@
+{
+  "references": {
+    "effect": {
+      "path": "https://github.com/effect-ts/effect",
+      "description": "Effect TypeScript libraries"
+    },
+    "my-app": {
+      "path": "~/workspace/my-app",
+      "description": "Local app repo",
+      "aliases": ["backend", "api repo"]
+    }
+  }
+}
